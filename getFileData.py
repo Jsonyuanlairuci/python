@@ -36,5 +36,5 @@ else:
     print(f'算力增量: {data.get("power_add_num")}')
 
     driver.close()
-#     f021479    f070932      f01231   f015932    f01466173
+
 
