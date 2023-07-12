@@ -46,7 +46,7 @@ def getHtmlContentByRequests(url):
 
 # ip代理
 def getReuestIpProxies():
-    ipUrle='https://api.hailiangip.com:8522/api/getIpEncrypt?dataType=0&encryptParam=SlDyzgfgDW12vuaMHmQkM1l3svlLMXCHw0IlSHvOue3lVhShpdEjb9vG2YRiwpyEuRVyxit%2BS%2BLPfM1vGfsJ7mEjAi0eMq%2Ft61ylMNCQgciuTUwZah7tVApJ9%2B8FOZYiAyw%2B0Hk2DtMscqY%2B%2FhM%2BdDz2krSwDgva62WETzjyvF7YFsJvJYxeLU9YDql4IJq6vs3ERyFHZ9FAgNS8WBDIMt0Jv%2FQlqwlcd4gkrYI6AFg%3D'
+    ipUrle='https://api.xxx.com:8522/api/getIpEncrypt?dataType=0&encryptParam=SlDyzgfgDW12vuaMHmQkM1l3svlLMXCHw0IlSHvOue3lVhShpdEjb9vG2YRiwpyEuRVyxit%2BS%2BLPfM1vGfsJ7mEjAi0eMq%2Ft61ylMNCQgciuTUwZah7tVApJ9%2B8FOZYiAyw%2B0Hk2DtMscqY%2B%2FhM%2BdDz2krSwDgva62WETzjyvF7YFsJvJYxeLU9YDql4IJq6vs3ERyFHZ9FAgNS8WBDIMt0Jv%2FQlqwlcd4gkrYI6AFg%3D'
     reponse=requests.get(url=ipUrle)
     reponse.encoding='gb2312'
     ipData=json.loads(reponse.text)
